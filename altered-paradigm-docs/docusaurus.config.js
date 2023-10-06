@@ -62,8 +62,8 @@ const config = {
         title: "",
         logo: {
           alt: "Altered Paradigm Logo",
-          src: "img/ap-lg1.svg",
-          srcDark: "img/ap-lg-dark.png",
+          src: "img/ap-logoT.png",
+          srcDark: "img/ap_lgDark.png",
         },
         items: [
           {
@@ -116,7 +116,7 @@ const config = {
           //   ],
           // },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Altered Paradigm`,
       },
       prism: {
         theme: lightCodeTheme,
