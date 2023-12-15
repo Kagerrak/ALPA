@@ -2,7 +2,7 @@
 
 ## What is Altered Paradigm?
 
-Altered Paradigm represents a groundbreaking decentralized autonomous organization (DAO), meticulously crafted to reshape the investment landscape through a state-of-the-art dual-treasury system. With contracts deployed on [specific blockchain(s)], Altered Paradigm establishes a robust and adaptable foundation to ensure the platform's progressive evolution.
+Altered Paradigm represents a groundbreaking decentralized autonomous organization (DAO), meticulously crafted to reshape the investment landscape through a state-of-the-art dual-treasury system. With contracts deployed on Avalanche, Altered Paradigm establishes a robust and adaptable foundation to ensure the platform's progressive evolution.
 
 Our innovative approach strategically establishes two pivotal treasuries: the **Backing Treasury** and the **Investment Treasury**. Each performs a vital, yet interconnected role. The Backing Treasury is designed to safeguard and sustain the inherent value of the project's token, acting as a fortress of stability amidst the vibrant and dynamic crypto market.
 
