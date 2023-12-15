@@ -8,7 +8,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "Altered Paradigm",
   tagline: "New way of seeing things!",
-  favicon: "img/favicon.ico",
+  favicon: "img/newALPA-logo.png",
 
   // Set the production url of your site here
   url: "https://your-docusaurus-test-site.com",
