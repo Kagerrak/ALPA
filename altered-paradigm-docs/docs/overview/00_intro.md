@@ -1,3 +1,8 @@
+---
+sidebar_position: 1
+slug: /
+---
+
 # Altered Paradigm
 
 ## What is Altered Paradigm?
