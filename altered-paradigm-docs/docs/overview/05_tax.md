@@ -2,14 +2,18 @@
 
 ## Taxation Mechanism on ALPA Token Transactions
 
-In a bid to perpetually fuel the treasuries and ensure the sustainable operation of Altered Paradigm, a taxation mechanism is implemented on ALPA token transactions.
+To support the ongoing stability and growth of the Altered Paradigm ecosystem, a taxation mechanism is applied to ALPA token transactions.
 
 ### Tax on Buying/Selling ALPA Tokens
 
-A 6% tax is levied on each buy/sell transaction of the ALPA token. This tax is directly funneled into the treasuries, thereby steadily augmenting their financial prowess. This mechanism ensures:
+A 6% tax is imposed on each buy and sell transaction of the ALPA token. Unlike traditional taxation mechanisms where the tax is used to fuel the treasuries, in Altered Paradigm, this tax is **burned**, directly impacting the total circulating supply of ALPA tokens.
 
-- **Sustainability**: A constant influx of funds into the treasuries, maintaining and enhancing their capabilities.
-- **Stability**: Ensuring the Backing Treasury is continuously fortified, enhancing the stability of the ALPA token.
-- **Growth**: Permitting the Investment Treasury to perpetually identify and capitalize on lucrative investment opportunities.
+#### Impact of the Taxation Mechanism:
 
-This taxation mechanism ensures that the Altered Paradigm ecosystem continually thrives, bolstering its stability and facilitating perpetual growth. It underpins the project’s vision of establishing a platform where stability and growth are not mutually exclusive but coexist, prosper, and perpetually fuel each other, crafting a narrative of collective success and sustainability.
+- **Reduction in Circulating Supply**: The burning of 6% of each transaction reduces the total circulating supply of ALPA tokens, influencing the token's scarcity and value.
+
+- **Enhancing the Floor Price**: The reduction in circulating supply due to the burning mechanism positively impacts the Floor Price of the ALPA token, potentially leading to an increase in its intrinsic value.
+
+- **Promoting Long-Term Stability**: By reducing the circulating supply, this mechanism contributes to the long-term stability and sustainability of the ALPA token, aligning with the project's vision of enduring growth and stability.
+
+This taxation mechanism plays a crucial role in ensuring that the Altered Paradigm ecosystem not only thrives but also maintains a balance between stability and growth. It represents a strategic approach to tokenomics, where the burning of the transaction tax contributes to the overall health and longevity of the ALPA token, fostering a sustainable and prosperous ecosystem for all stakeholders.

@@ -10,9 +10,13 @@ This concept ensures each token is perennially backed by actual value, providing
 
 ## The Growing Backing Treasury
 
-### Transaction Tax Fuelling the Treasury
+### Transaction Tax and Its Impact on Supply
 
-A 6% transaction tax on each ALPA token buy/sell transaction perpetually fuels the Backing Treasury. This tax not only facilitates sustainability and growth through its allocation to the Investment Treasury but also directly contributes to the continuous augmentation of the Backing Treasury, systematically enhancing the floor price of the ALPA token.
+A 6% transaction tax is applied to each buy and sell of the ALPA token. This tax is **burned**, directly impacting the total circulating supply of ALPA tokens.
+
+- **Burning Mechanism:** The burning of 6% of each transaction effectively reduces the total circulating supply, which in turn influences the Floor Price and the scarcity of the ALPA token.
+
+- **Enhancing Floor Price:** As the total circulating supply decreases due to the burning mechanism, the Floor Price of the ALPA token is positively impacted, potentially leading to an increase in its value.
 
 ### Investment Proceeds Enhancing the Treasury
 
@@ -25,6 +29,10 @@ The Floor Price mechanism, fortified by a continuously growing Backing Treasury,
 ## Info: Calculating the Floor Price
 
 The Floor Price is derived through a straightforward formula, ensuring transparency and easy verification for all stakeholders:
+
+\[
+\text{Floor Price} = \frac{\text{Total Assets in Backing Treasury}}{\text{Total Circulating Supply of ALPA Tokens}}
+\]
 
 ![Floor Price](/img/floor-price.png)
 
