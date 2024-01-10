@@ -36,7 +36,7 @@ function HomepageHeader() {
           </div>
           <div className={(styles.shadowCard, styles.cardHeader)}>
             <Landmark className={styles.iconWrapper} />
-            <Link className={styles.buttons} to="/main/overview/intro">
+            <Link className={styles.buttons} to="/main/governance/dao">
               Governance
             </Link>
           </div>
