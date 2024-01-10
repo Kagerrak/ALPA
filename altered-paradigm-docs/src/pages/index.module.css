@@ -8,6 +8,8 @@
   text-align: center;
   position: relative;
   overflow: hidden;
+  opacity: 1;
+  mask-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1), transparent);
 }
 
 @media screen and (max-width: 996px) {
@@ -20,4 +22,100 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  max-width: 250px;
+  opacity: 1;
+  font-size: 1.5rem;
+}
+
+.shadowCard {
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.1);
+  background-color: rgba(112, 115, 115, 1);
+  backdrop-filter: blur(30px);
+  min-height: 200px;
+  /* background-color: var(--ifm-color-emphasis-0); */
+}
+
+.card {
+  display: flex;
+  max-height: 250px;
+  min-width: 250px;
+  max-width: 350px;
+  padding: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  /* border: 1px solid var(--ifm-color-emphasis-200); */
+
+  &:hover {
+    border: 1px solid var(--ifm-color-emphasis-400);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.05);
+  }
+
+  @media (max-width: 960px) {
+    width: 100%;
+  }
+}
+.cardHeader {
+  position: relative;
+  display: flex;
+  max-height: 250px;
+  min-width: 250px;
+  max-width: 350px;
+  padding: 1rem;
+  flex-direction: row;
+  justify-content: center;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  background-color: rgba(112, 115, 115, 0.5);
+
+  &:hover {
+    border: 1px solid var(--ifm-color-emphasis-400);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.05);
+  }
+
+  @media (max-width: 960px) {
+    width: 100%;
+  }
+}
+
+.iconWrapper {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: rgba(91, 94, 93, 1);
+}
+
+.heroBackground {
+  background-image: url(/img/doc-background.png); /* Replace with your image path */
+  background-size: cover; /* Cover the entire space of the element */
+  background-position: center; /* Center the background image */
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 1rem 0;
+  max-width: 960px;
+}
+
+@media (max-width: 960px) {
+  .row {
+    grid-template-columns: 1fr;
+    padding: 1rem;
+    max-width: 100%;
+    margin: 0 1rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .row {
+    grid-template-columns: 1fr;
+  }
 }

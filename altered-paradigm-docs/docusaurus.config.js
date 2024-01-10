@@ -65,13 +65,13 @@ const config = {
           src: "img/ap-logoT.png",
           srcDark: "img/ap_lgDark.png",
         },
-        items: [
-          {
-            href: "https://github.com/facebook/docusaurus",
-            label: "GitHub",
-            position: "right",
-          },
-        ],
+        // items: [
+        //   {
+        //     href: "https://github.com/facebook/docusaurus",
+        //     label: "GitHub",
+        //     position: "right",
+        //   },
+        // ],
       },
       footer: {
         style: "dark",

@@ -1,69 +1,108 @@
-import React from 'react';
-import clsx from 'clsx';
-import styles from './styles.module.css';
+import React from "react";
+import clsx from "clsx";
+import Link from "@docusaurus/Link";
+import styles from "./styles.module.css";
+import { ExternalLink } from "lucide-react";
+import Discord from "@site/static/img/discord.svg";
+import Telegram from "@site/static/img/telegram.svg";
+import X from "@site/static/img/x.svg";
 
 type FeatureItem = {
   title: string;
-  Svg: React.ComponentType<React.ComponentProps<'svg'>>;
+  Svg: React.ComponentType<React.ComponentProps<"svg">>;
   description: JSX.Element;
 };
 
-const FeatureList: FeatureItem[] = [
+export const guides = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
-    description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
-    ),
+    title: "What is the Dual Treasury System?",
+    text: "An overview of the wo treasuries",
+    to: "./main/overview/dual-treasury-system",
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
+    title: "How does the Floor Price work?",
+    text: "An overview of the Floor Price Mechanism",
+    to: "./main/overview/floor-price",
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
-    ),
+    title: "What is Bonding?",
+    text: "An overview of Bonding",
+    to: "./main/overview/bonding",
   },
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+const Guides = () => {
   return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div>
-      <div className="text--center padding-horiz--md">
-        <h3>{title}</h3>
-        <p>{description}</p>
+    <div>
+      <h2>Getting Started</h2>
+      <div>
+        {guides.map((action) => (
+          <Link
+            style={{ textDecoration: "none" }}
+            key={action.title}
+            to={action.to}
+          >
+            <div className={styles.card} style={{ marginBottom: "1rem" }}>
+              <div className={styles.linkRow}>
+                <div style={{ display: "flex", alignItems: "center" }}>
+                  <h3 style={{ marginBottom: "0rem" }}>{action.title}</h3>
+                </div>
+                <ExternalLink />
+              </div>
+              <p style={{ marginBottom: "0rem" }}>{action.text}</p>
+            </div>
+          </Link>
+        ))}
       </div>
     </div>
   );
-}
+};
 
 export default function HomepageFeatures(): JSX.Element {
   return (
     <section className={styles.features}>
-      <div className="container">
-        <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
-          ))}
-        </div>
+      <div className={styles.guidesContainer}>
+        <Guides />
+      </div>
+      <hr />
+
+      <div className={styles.row}>
+        <Link
+          style={{ textDecoration: "none" }}
+          href={"https://discord.gg/NUc9fnvSJA"}
+        >
+          <div className={styles.centerCard}>
+            <Discord style={{ width: "48px", height: "48px" }} />
+            <div>
+              <h3>Discord</h3>
+              <p>Join the Altered Paradigm community on discord</p>
+            </div>
+          </div>
+        </Link>
+        <Link
+          style={{ textDecoration: "none" }}
+          href={"https://t.me/alteredparadigmofficial"}
+        >
+          <div className={styles.centerCard}>
+            <Telegram style={{ width: "48px", height: "48px" }} />
+            <div>
+              <h3>Telegram</h3>
+              <p>Join the Altered Paradigm community on telegram</p>
+            </div>
+          </div>
+        </Link>
+        <Link
+          style={{ textDecoration: "none" }}
+          href={"https://x.com/0xAltered?t=x_9Sk6tXd3-DFOUzs_SxgQ&s=09"}
+        >
+          <div className={styles.centerCard}>
+            <X style={{ width: "48px", height: "48px" }} />
+            <div>
+              <h3>X</h3>
+              <p>Join the Altered Paradigm community on X</p>
+            </div>
+          </div>
+        </Link>
       </div>
     </section>
   );
