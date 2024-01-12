@@ -30,8 +30,8 @@ function HomepageHeader() {
           </div>
           <div className={(styles.shadowCard, styles.cardHeader)}>
             <LibraryBig className={styles.iconWrapper} />
-            <Link className={styles.buttons} to="/main/overview/intro">
-              Protocol Tutorial
+            <Link className={styles.buttons} to="/main/guides/token-sale">
+              Protocol Guide
             </Link>
           </div>
           <div className={(styles.shadowCard, styles.cardHeader)}>

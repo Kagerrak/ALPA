@@ -1,7 +1,3 @@
----
-slug: /governance/dao
----
-
 # Governance & DAO
 
 Altered Paradigm is not merely a decentralized finance project; it's a community-driven initiative where the direction and strategies of the project are sculpted by its members through a democratic, decentralized autonomous organization (DAO) structure.
