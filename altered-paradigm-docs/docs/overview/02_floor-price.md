@@ -30,10 +30,6 @@ The Floor Price mechanism, fortified by a continuously growing Backing Treasury,
 
 The Floor Price is derived through a straightforward formula, ensuring transparency and easy verification for all stakeholders:
 
-\[
-\text{Floor Price} = \frac{\text{Total Assets in Backing Treasury}}{\text{Total Circulating Supply of ALPA Tokens}}
-\]
-
 ![Floor Price](/img/floor-price.png)
 
 Where:
